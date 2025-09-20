@@ -1,0 +1,58 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="twitterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0284c7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#075985;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#twitterGradient)"/>
+  
+  <!-- Logo placeholder (shield with globe) -->
+  <g transform="translate(80, 180)">
+    <path d="M50 20 L130 50 L130 150 C130 180 100 210 50 230 C0 210 -30 180 -30 150 L-30 50 Z" fill="rgba(255,255,255,0.15)"/>
+    <circle cx="50" cy="125" r="40" fill="none" stroke="white" stroke-width="3"/>
+    <path d="M10 125 Q50 105 90 125" fill="none" stroke="white" stroke-width="2"/>
+    <path d="M10 125 Q50 145 90 125" fill="none" stroke="white" stroke-width="2"/>
+    <line x1="50" y1="85" x2="50" y2="165" stroke="white" stroke-width="2"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="250" y="180" fill="white" font-family="Arial, sans-serif" font-size="44" font-weight="bold">
+    Tech Maven Geospatial
+  </text>
+  <text x="250" y="230" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="22">
+    Defense &amp; GEOINT Solutions
+  </text>
+  <text x="250" y="280" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="16">
+    Rust-powered geospatial intelligence platform
+  </text>
+  <text x="250" y="305" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="16">
+    for defense and military organizations
+  </text>
+  
+  <!-- Key features -->
+  <g transform="translate(250, 350)">
+    <rect x="0" y="0" width="160" height="60" rx="8" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="10" y="20" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">OGC COMPLIANT</text>
+    <text x="10" y="40" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="10">Standards-based</text>
+    
+    <rect x="180" y="0" width="160" height="60" rx="8" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="190" y="20" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">DEFENSE GRADE</text>
+    <text x="190" y="40" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="10">Military Security</text>
+    
+    <rect x="360" y="0" width="160" height="60" rx="8" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="370" y="20" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">CLOUD NATIVE</text>
+    <text x="370" y="40" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="10">Rapid Deployment</text>
+    
+    <rect x="540" y="0" width="160" height="60" rx="8" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="550" y="20" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">AI READY</text>
+    <text x="550" y="40" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="10">MCP Integration</text>
+  </g>
+  
+  <!-- Website indicator -->
+  <text x="250" y="480" fill="rgba(255,255,255,0.7)" font-family="Arial, sans-serif" font-size="14">
+    techmaven.geospatial.com
+  </text>
+</svg>

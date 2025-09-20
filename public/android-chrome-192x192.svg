@@ -1,0 +1,27 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradientAndroid192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0284c7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0369a1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#075985;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow192">
+      <feDropShadow dx="3" dy="3" stdDeviation="4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="192" height="192" fill="url(#gradientAndroid192)"/>
+  <!-- Main shield design -->
+  <path d="M96 24 L156 54 L156 120 C156 144 132 168 96 180 C60 168 36 144 36 120 L36 54 Z" fill="rgba(255,255,255,0.1)" filter="url(#shadow192)"/>
+  <!-- Globe with grid -->
+  <circle cx="96" cy="96" r="42" fill="none" stroke="white" stroke-width="4"/>
+  <path d="M54 96 Q96 72 138 96" fill="none" stroke="white" stroke-width="3"/>
+  <path d="M54 96 Q96 120 138 96" fill="none" stroke="white" stroke-width="3"/>
+  <line x1="96" y1="54" x2="96" y2="138" stroke="white" stroke-width="3"/>
+  <path d="M96 54 Q120 72 138 96 Q120 120 96 138 Q72 120 54 96 Q72 72 96 54" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  <!-- Corner indicators -->
+  <circle cx="72" cy="72" r="4" fill="rgba(255,255,255,0.7)"/>
+  <circle cx="120" cy="120" r="4" fill="rgba(255,255,255,0.7)"/>
+  <circle cx="120" cy="72" r="3" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="72" cy="120" r="3" fill="rgba(255,255,255,0.5)"/>
+</svg>

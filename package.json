@@ -1,0 +1,56 @@
+{
+  "name": "tmg-geospatial-marketing",
+  "version": "1.0.0",
+  "description": "Tech Maven Geospatial - Defense & GEOINT Solutions Marketing Website",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@hookform/resolvers": "^3.3.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.16",
+    "framer-motion": "^10.16.5",
+    "gtag": "^1.0.1",
+    "next": "^14.0.0",
+    "next-seo": "^6.8.0",
+    "postcss": "^8.4.31",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-hook-form": "^7.47.0",
+    "react-intersection-observer": "^9.5.2",
+    "sharp": "^0.32.6",
+    "tailwindcss": "^3.3.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^14.0.0",
+    "@types/node": "^20.8.10",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "defense",
+    "geoint",
+    "gis",
+    "geospatial",
+    "military",
+    "c2",
+    "situational-awareness",
+    "nextjs"
+  ],
+  "author": "Tech Maven Geospatial, LLC",
+  "license": "MIT"
+}

@@ -1,0 +1,53 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradientAndroid512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0284c7;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#0369a1;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#075985;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0c4a6e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow512">
+      <feDropShadow dx="8" dy="8" stdDeviation="12" flood-opacity="0.3"/>
+    </filter>
+    <radialGradient id="highlight512" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.3);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0);stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#gradientAndroid512)"/>
+  <!-- Subtle highlight overlay -->
+  <rect width="512" height="512" fill="url(#highlight512)"/>
+  <!-- Main shield design -->
+  <path d="M256 64 L416 144 L416 320 C416 384 352 448 256 480 C160 448 96 384 96 320 L96 144 Z" fill="rgba(255,255,255,0.15)" filter="url(#shadow512)"/>
+  <!-- Inner shield detail -->
+  <path d="M256 96 L384 160 L384 304 C384 352 328 400 256 424 C184 400 128 352 128 304 L128 160 Z" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  
+  <!-- Globe with detailed grid -->
+  <circle cx="256" cy="256" r="112" fill="none" stroke="white" stroke-width="10"/>
+  <circle cx="256" cy="256" r="80" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="3"/>
+  <circle cx="256" cy="256" r="48" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  
+  <!-- Latitude lines -->
+  <path d="M144 256 Q256 192 368 256" fill="none" stroke="white" stroke-width="8"/>
+  <path d="M144 256 Q256 320 368 256" fill="none" stroke="white" stroke-width="8"/>
+  <path d="M176 256 Q256 224 336 256" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="4"/>
+  <path d="M176 256 Q256 288 336 256" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="4"/>
+  
+  <!-- Longitude line -->
+  <line x1="256" y1="144" x2="256" y2="368" stroke="white" stroke-width="8"/>
+  
+  <!-- Additional longitude lines -->
+  <path d="M256 144 Q288 192 320 256 Q288 320 256 368 Q224 320 192 256 Q224 192 256 144" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="4"/>
+  <path d="M256 144 Q224 192 192 256 Q224 320 256 368 Q288 320 320 256 Q288 192 256 144" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="4"/>
+  
+  <!-- Tech/satellite points -->
+  <circle cx="192" cy="192" r="8" fill="rgba(255,255,255,0.8)"/>
+  <circle cx="320" cy="320" r="8" fill="rgba(255,255,255,0.8)"/>
+  <circle cx="320" cy="192" r="6" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="192" cy="320" r="6" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="256" cy="144" r="4" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="256" cy="368" r="4" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="144" cy="256" r="4" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="368" cy="256" r="4" fill="rgba(255,255,255,0.5)"/>
+</svg>

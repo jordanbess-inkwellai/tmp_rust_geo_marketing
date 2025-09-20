@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap location (will be generated automatically)
+Sitemap: https://techmaven.geospatial.com/sitemap.xml
+
+# Security and sensitive areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /.git/
+
+# Government compliance notice
+# This site contains unclassified information only
+# For classified discussions, contact through secure channels
