@@ -3,7 +3,15 @@
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { BuildingOffice2Icon, UserGroupIcon, RocketLaunchIcon } from '@heroicons/react/24/outline';
+import { 
+  BuildingOffice2Icon, 
+  UserGroupIcon, 
+  RocketLaunchIcon,
+  ShieldCheckIcon,
+  GlobeAmericasIcon,
+  LightBulbIcon,
+  SparklesIcon 
+} from '@heroicons/react/24/outline';
 import Image from 'next/image';
 
 const leadership = [
@@ -32,16 +40,29 @@ const values = [
     name: 'Mission First',
     description: 'Our primary focus is delivering solutions that ensure mission success for our clients.',
     icon: RocketLaunchIcon,
+    color: 'text-primary-600',
+    bgColor: 'bg-primary-100',
   },
   {
     name: 'Innovation & Excellence',
     description: 'We are committed to pushing the boundaries of technology and delivering best-in-class solutions.',
-    icon: BuildingOffice2Icon,
+    icon: LightBulbIcon,
+    color: 'text-accent-600',
+    bgColor: 'bg-accent-100',
   },
   {
     name: 'Integrity & Trust',
     description: 'We operate with the highest level of integrity and build lasting partnerships based on trust.',
-    icon: UserGroupIcon,
+    icon: ShieldCheckIcon,
+    color: 'text-green-600',
+    bgColor: 'bg-green-100',
+  },
+  {
+    name: 'Global Impact',
+    description: 'Supporting defense and intelligence operations worldwide to make the world a safer place.',
+    icon: GlobeAmericasIcon,
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-100',
   },
 ];
 

@@ -22,10 +22,15 @@ const rotatingTexts = [
 
 export default function Hero() {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  const [isTextAnimating, setIsTextAnimating] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentTextIndex((prev) => (prev + 1) % rotatingTexts.length);
+      setIsTextAnimating(true);
+      setTimeout(() => {
+        setCurrentTextIndex((prev) => (prev + 1) % rotatingTexts.length);
+        setIsTextAnimating(false);
+      }, 300);
     }, 3000);
 
     return () => clearInterval(interval);
@@ -58,9 +63,17 @@ export default function Hero() {
             <h1 className="text-white mb-6">
               Next-Generation
               <br />
-              <span className="text-gradient">
+              <motion.span 
+                className="text-gradient inline-block"
+                animate={{ 
+                  opacity: isTextAnimating ? 0 : 1,
+                  y: isTextAnimating ? 10 : 0,
+                  scale: isTextAnimating ? 0.95 : 1
+                }}
+                transition={{ duration: 0.3, ease: 'easeInOut' }}
+              >
                 {rotatingTexts[currentTextIndex]}
-              </span>
+              </motion.span>
               <br />
               Platform
             </h1>
