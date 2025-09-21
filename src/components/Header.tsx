@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Bars3Icon, XMarkIcon, ShieldCheckIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
+<<<<<<< HEAD
   { name: 'Solutions', href: '#solutions' },
   { name: 'Military/Defense', href: '/military-defense' },
   { name: 'FMV Processing', href: '/fmv' },
@@ -13,6 +14,14 @@ const navigation = [
   { name: 'Technology', href: '#technology' },
   { name: 'Case Studies', href: '#case-studies' },
   { name: 'Contact', href: '#contact' },
+=======
+  { name: 'Solutions', href: '/#solutions', isHash: true },
+  { name: 'Technology', href: '/#technology', isHash: true },
+  { name: 'Videos', href: '/videos', isHash: false },
+  { name: 'Podcasts', href: '/podcasts', isHash: false },
+  { name: 'Case Studies', href: '/#case-studies', isHash: true },
+  { name: 'Contact', href: '/#contact', isHash: true },
+>>>>>>> 8afc391139e4b268e48abc368abbca6b32388cfc
 ];
 
 export default function Header() {
@@ -44,6 +53,7 @@ export default function Header() {
 
         <div className="hidden lg:flex lg:gap-x-8">
           {navigation.map((item) => (
+<<<<<<< HEAD
             <Link
               key={item.name}
               href={item.href}
@@ -58,6 +68,33 @@ export default function Header() {
             >
               {item.name}
             </Link>
+=======
+            item.isHash ? (
+              <Link
+                key={item.name}
+                href={item.href}
+                className="nav-link"
+                onClick={(e) => {
+                  // Only prevent default for hash links on the same page
+                  if (window.location.pathname === '/') {
+                    e.preventDefault();
+                    const element = document.querySelector(item.href.replace('/', ''));
+                    element?.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+              >
+                {item.name}
+              </Link>
+            ) : (
+              <Link
+                key={item.name}
+                href={item.href}
+                className="nav-link"
+              >
+                {item.name}
+              </Link>
+            )
+>>>>>>> 8afc391139e4b268e48abc368abbca6b32388cfc
           ))}
         </div>
 
@@ -97,6 +134,7 @@ export default function Header() {
               <div className="-my-6 divide-y divide-secondary-500/10">
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
+<<<<<<< HEAD
                     <Link
                       key={item.name}
                       href={item.href}
@@ -112,6 +150,35 @@ export default function Header() {
                     >
                       {item.name}
                     </Link>
+=======
+                    item.isHash ? (
+                      <Link
+                        key={item.name}
+                        href={item.href}
+                        className="nav-link-mobile"
+                        onClick={(e) => {
+                          // Only prevent default for hash links on the same page
+                          if (window.location.pathname === '/') {
+                            e.preventDefault();
+                            const element = document.querySelector(item.href.replace('/', ''));
+                            element?.scrollIntoView({ behavior: 'smooth' });
+                          }
+                          setMobileMenuOpen(false);
+                        }}
+                      >
+                        {item.name}
+                      </Link>
+                    ) : (
+                      <Link
+                        key={item.name}
+                        href={item.href}
+                        className="nav-link-mobile"
+                        onClick={() => setMobileMenuOpen(false)}
+                      >
+                        {item.name}
+                      </Link>
+                    )
+>>>>>>> 8afc391139e4b268e48abc368abbca6b32388cfc
                   ))}
                 </div>
                 <div className="py-6 space-y-4">

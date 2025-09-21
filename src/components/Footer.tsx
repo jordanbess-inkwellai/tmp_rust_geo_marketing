@@ -30,10 +30,10 @@ const navigation = {
   ],
   resources: [
     { name: 'Documentation', href: '/docs' },
+    { name: 'Feature Videos', href: '/videos' },
+    { name: 'Podcasts', href: '/podcasts' },
     { name: 'White Papers', href: '/whitepapers' },
     { name: 'Case Studies', href: '#case-studies' },
-    { name: 'Security Guidelines', href: '/security' },
-    { name: 'Compliance Center', href: '/compliance' },
     { name: 'Developer Portal', href: '/developers' },
   ],
   legal: [
