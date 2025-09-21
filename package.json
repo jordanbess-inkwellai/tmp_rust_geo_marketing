@@ -26,12 +26,9 @@
     "gtag": "^1.0.1",
     "next": "^14.0.0",
     "next-seo": "^6.8.0",
-<<<<<<< HEAD
     "next-sitemap": "^4.2.3",
     "nodemailer": "^7.0.6",
-=======
     "pm2": "^6.0.11",
->>>>>>> 8afc391139e4b268e48abc368abbca6b32388cfc
     "postcss": "^8.4.31",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
