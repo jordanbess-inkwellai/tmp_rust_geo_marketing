@@ -1,0 +1,53 @@
+Contact: security@techmaven.geospatial.com
+Contact: https://techmaven.geospatial.com/security-contact
+Expires: 2025-12-31T23:59:59.000Z
+Acknowledgments: https://techmaven.geospatial.com/security-acknowledgments
+Preferred-Languages: en
+Canonical: https://techmaven.geospatial.com/security.txt
+
+# Security Policy for Tech Maven Geospatial, LLC
+# 
+# We take security seriously and appreciate responsible disclosure
+# of security vulnerabilities. This document outlines our security
+# contact information and disclosure process.
+#
+# IMPORTANT: This is for unclassified security issues only.
+# For classified or sensitive security matters, contact us through
+# appropriate secure government channels.
+#
+# Scope:
+# - This policy covers our public-facing website and marketing materials
+# - For product security issues, separate processes apply under NDA
+# - Government customers should follow their established security protocols
+#
+# What to report:
+# - Website vulnerabilities (XSS, CSRF, etc.)
+# - Infrastructure security issues
+# - Data privacy concerns
+# - Authentication/authorization bypasses
+#
+# What NOT to report here:
+# - Classified system vulnerabilities (use secure channels)
+# - Social engineering attempts
+# - Physical security issues
+# - Issues requiring immediate government notification
+#
+# Response timeline:
+# - Initial acknowledgment: 1-2 business days
+# - Preliminary assessment: 3-5 business days  
+# - Resolution timeline: varies based on severity
+#
+# Legal:
+# - We will not pursue legal action against researchers who follow
+#   responsible disclosure practices
+# - Please do not access, modify, or delete data
+# - Respect user privacy and comply with applicable laws
+#
+# Recognition:
+# - We maintain a security acknowledgments page for researchers
+# - Recognition is subject to our disclosure policy
+#
+# Government/Defense Notice:
+# - Some systems may require security clearances to access
+# - Coordinate with appropriate authorities for sensitive findings
+# - Follow applicable government security reporting requirements

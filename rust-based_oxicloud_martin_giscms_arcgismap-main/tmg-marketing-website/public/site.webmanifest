@@ -1,0 +1,24 @@
+{
+  "name": "Tech Maven Geospatial - Defense & GEOINT Solutions",
+  "short_name": "Tech Maven Geospatial",
+  "description": "Advanced geospatial intelligence and command & control solutions for defense, military, and public safety organizations.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0284c7",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "categories": ["defense", "geospatial", "gis", "intelligence"]
+}

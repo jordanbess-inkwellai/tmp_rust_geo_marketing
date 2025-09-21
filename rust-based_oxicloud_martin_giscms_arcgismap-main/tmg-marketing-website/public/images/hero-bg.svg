@@ -1,0 +1,24 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c4a6e;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#075985;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#0369a1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
+    </linearGradient>
+    <!-- Subtle geometric pattern -->
+    <pattern id="hexPattern" x="0" y="0" width="60" height="52" patternUnits="userSpaceOnUse">
+      <path d="M30 4 L46 14 L46 34 L30 44 L14 34 L14 14 Z" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Main gradient background -->
+  <rect width="1920" height="1080" fill="url(#heroGradient)"/>
+  
+  <!-- Overlay pattern -->
+  <rect width="1920" height="1080" fill="url(#hexPattern)"/>
+  
+  <!-- Subtle highlight elements -->
+  <circle cx="300" cy="200" r="150" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="1600" cy="800" r="200" fill="rgba(255,255,255,0.02)"/>
+</svg>
